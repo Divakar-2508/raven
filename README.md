@@ -32,7 +32,7 @@ Basic syntax:
 raven <add|new|plug> {name}
 ```
 new - create a new maven project, uses mvn "archetype:generate -DartifactId={name} -DgroupId={grp} -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false"
-add - adds a dependency, search by name in maven repo and asks for the exact package (from 10 relevant) to add.
-plug - add a new plugin
 
-```
+add - adds a dependency, search by name in maven repo and asks for the exact package (from 10 relevant) to add.
+
+plug - add a new plugin
